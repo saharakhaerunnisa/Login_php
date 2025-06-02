@@ -25,7 +25,7 @@ if (mysqli_num_rows($query) > 0) {
             header("Location: admin/index.html");
             break;
         case '2':
-            header("Location: karyawan/index.html");
+            header("Location: kayawan/index.html");
             break;
         case '3':
             header("Location: pelanggan/index.html");
